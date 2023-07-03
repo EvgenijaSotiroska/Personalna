@@ -1,0 +1,369 @@
+.header{
+    background-color: #f4ece6;
+    height: 60px;
+    position: static;
+}
+.header ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.header ul li a{
+    text-decoration: none;
+    font-family: "Baskerville Old Face", serif;
+    color: #c8a18f;
+    font-size: 20px;
+}
+.header ul li a:hover, footer ul li a:hover{
+    color: saddlebrown;
+}
+.header .active a{
+    color: #b97836;
+    font-weight: bold;
+}
+.header span{
+    font-size: 20px;
+    font-family: Arial, serif;
+    color: #b97836;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+.header ul{
+    display: inline-block;
+    float: right;
+    margin-top: -22px;
+    margin-right: 100px;
+}
+.photo{
+    background-color:#f4ece6;
+    width: 300px;
+    height: 400px;
+}
+.photo img{
+    border-radius: 100px;
+    display: inline-block;
+    margin-left: 48px;
+    margin-top: 30px;
+}
+.photo p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Baskerville Old Face", serif;
+    line-height: 5px;
+    text-align: center;
+    color: saddlebrown;
+}
+.photo p:nth-child(3){
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 63px;
+    margin-top: 30px;
+}
+.photo div{
+    display: inline-block;
+    margin-left: 90px;
+    border-bottom: 2px solid #b97836;;
+}
+.media ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.media{
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    display: inline-block;
+}
+.media ul li a{
+    text-decoration: none;
+    color: saddlebrown;
+}
+.media ul{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+body{
+    width: 1580px;
+    margin: auto;
+}
+.me{
+    display: inline-block;
+    float: left;
+    margin-left: 400px;
+    margin-top: 100px;
+    box-shadow: -1px 1px 5px gray;
+}
+.bg{
+    display: inline-block;
+    background-color: #e6dace;
+    width: 600px;
+    height: 700px;
+}
+.hi{
+    clear: both;
+    display: inline-block;
+    float: right;
+    width: 400px;
+    margin-top: 100px;
+    margin-right: 300px;
+}
+.hi h1{
+    font-size: 80px;
+    font-family: Candara, serif;
+    color: saddlebrown;
+    text-shadow: 1px 1px 1px gray;
+    text-align: center;
+}
+.hi h2{
+    text-align: center;
+    font-family: Candara, serif;
+    color: saddlebrown;
+    font-size: 30px;
+}
+.hi p{
+    text-align: center;
+    font-family: Candara, serif;
+    font-size: 20px;
+    color: #b97836;
+}
+.hi a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Candara, serif;
+    font-size: 23px;
+    border: 3px solid #d2af9d;
+    padding: 6px;
+    background-color: #d2af9d;
+    box-shadow: -1px 1px 1px #d2af9d;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+.photos div img{
+    width: 350px;
+    height: 400px;
+    display: inline-block;
+    margin: auto;
+    border: 1px solid saddlebrown;
+}
+.photos div{
+    display: inline-block;
+    float: left;
+    margin-left: 70px;
+    width: 400px;
+    margin-top: 20px;
+}
+.photos{
+    display: inline-block;
+    margin-left: 80px;
+}
+.photos h1{
+    font-family: "Baskerville Old Face",serif;
+    color: saddlebrown;
+    border-bottom: 1px solid #b97836 ;
+}
+.photos a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Candara, serif;
+    font-size: 23px;
+    border: 3px solid #d2af9d;
+    padding: 6px;
+    background-color: #d2af9d;
+    box-shadow: -1px 1px 1px #d2af9d;
+    margin-left: 280px;
+}
+.hobbies h1{
+    color: saddlebrown;
+    display: inline-block;
+    margin-left: 700px;
+    text-align: center;
+    font-family: "Baskerville Old Face",serif;
+    border-bottom: 1px solid saddlebrown;
+}
+.hobbies div:nth-of-type(2) h1{
+    margin-left: 600px;
+}
+.hobbies p{
+    font-size: 22px;
+    line-height: 35px;
+    display: inline-block;
+    width: 1000px;
+    margin-left: 300px;
+    text-align: justify;
+}
+.nature div div{
+    display: inline-block;
+    width: 300px;
+    float: left;
+}
+.nature div div img{
+    width: 300px;
+    height: 270px;
+    border: #c8a18f 1px solid;
+}
+.nature div{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+
+
+.introduction h2{
+    font-family: "Baskerville Old Face", serif;
+    color: saddlebrown;
+    font-size: 30px;
+    margin-left: 280px;
+}
+.introduction p{
+    clear: both;
+    display: inline-block;
+    width: 600px;
+    float: left;
+    font-family: "Baskerville Old Face", serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 200px;
+}
+
+.introduction p:nth-child(3) {
+    clear: both;
+    float: left;
+    display: inline-block;
+    font-weight: bold;
+    border: 3px solid #d2af9d;
+    padding: 6px;
+    background-color: #d2af9d;
+    box-shadow: -1px 1px 1px #d2af9d;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.introduction p:nth-child(3) a{
+    text-decoration: none;
+    color: white;
+    font-family: Candara, serif;
+    font-size: 23px;
+    display: inline-block;
+    margin-left: 100px;
+}
+.tunis p, .croatia p{
+    clear: both;
+    display: inline-block;
+    width: 800px;
+    float: left;
+    font-family: "Baskerville Old Face", serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 200px;
+}
+.introduction img{
+    float: right;
+    margin-top: -200px;
+    margin-right: 100px;
+}
+.tunis{
+    clear: both;
+}
+.tunis h1, .croatia h1{
+    font-family: "Baskerville Old Face", serif;
+    color: saddlebrown;
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 1px solid saddlebrown;
+    float: left;
+    margin-left: 550px;
+}
+.tunis >  img, .croatia > img{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+    margin-top: -40px;
+    box-shadow: #b97836 -1px 1px 1px;
+}
+.tunis div img, .italy div img, .croatia div img{
+    width: 220px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #b97836;
+}
+.tunis div, .italy div, .croatia div{
+    display: inline-block;
+    margin-left: 170px;
+}
+.italy > img{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    float: left;
+    margin-left: 200px;
+    box-shadow: #b97836 1px 1px 1px;
+}
+ .italy h1{
+     font-family: "Baskerville Old Face", serif;
+     color: saddlebrown;
+     font-size: 30px;
+     display: inline-block;
+     border-bottom: 1px solid saddlebrown;
+     float: right;
+     margin-right: 600px;
+ }
+.italy p{
+    display: inline-block;
+    width: 800px;
+    float: right;
+    font-family: "Baskerville Old Face", serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 200px;
+}
+hr{
+    width: 1200px;
+    height: 8px;
+  background: linear-gradient(to right, #c8a18f, #e9e2d8);
+    border: white;
+}
+
+.contact{
+    display: inline-block;
+    width: 500px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.contact h2{
+    text-align: center;
+    color: saddlebrown;
+}
+footer ul li{
+    display: inline-block;
+    margin-left: 50px;
+    border-left: #b97836 1px solid;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+footer ul li:first-child{
+    border-left: transparent;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #b97836;
+    font-size: 18px;
+}
+footer{
+    margin-top: -20px;
+    background-color:  #f4ece6;
+    height: 40px;
+}
+footer ul{
+    margin-left: 400px;
+}
